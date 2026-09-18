@@ -87,42 +87,130 @@ export default function Page() {
               EL RECORRIDO
             </p>
             <h2 className="mt-4 font-serif text-4xl text-[#f0f1df] sm:text-5xl">
-              Una prueba nunca llegaba sola.
+              El archivo de las rutas conocidas.
             </h2>
             <p className="mt-5 leading-8 text-[#b9bdad]">
-              Cada capa llevaba a otra: archivos aparentemente normales,
-              referencias literarias, números primos y coordenadas repartidas
-              por el mundo. El método era tan importante como la respuesta.
+              No fue un único acertijo, sino varias cadenas con métodos y
+              finales distintos. Esta cronología separa los retos atribuidos a
+              Cicada de los mensajes posteriores que no abrieron una nueva ronda
+              pública.
             </p>
           </div>
 
-          <div className="mt-12 grid gap-px overflow-hidden border border-[#303930] bg-[#303930] md:grid-cols-3">
+          <div className="mt-12 grid gap-px overflow-hidden border border-[#303930] bg-[#303930] md:grid-cols-2">
             <article className="bg-[#0d120e] p-7">
-              <p className="font-mono text-xs text-[#cbd56a]">01 / OCULTO</p>
-              <h3 className="mt-5 text-xl text-[#eff0df]">Esteganografía</h3>
+              <p className="font-mono text-xs text-[#cbd56a]">
+                01 / ENERO 2012
+              </p>
+              <h3 className="mt-5 text-xl text-[#eff0df]">La primera ruta</h3>
               <p className="mt-3 text-sm leading-7 text-[#aeb4a0]">
-                La primera imagen escondía datos que podían extraerse con
-                OutGuess. La pista incluía una firma PGP para autenticar los
-                mensajes.
+                La imagen de 4chan escondía una cadena que requería OutGuess y
+                una firma PGP. Después llegaron Reddit, cifras Vigenère y de
+                libro, una llamada telefónica y el número 845145127, construido
+                con los números primos asociados a la imagen original.
               </p>
             </article>
             <article className="bg-[#0d120e] p-7">
-              <p className="font-mono text-xs text-[#cbd56a]">02 / AFUERA</p>
-              <h3 className="mt-5 text-xl text-[#eff0df]">Coordenadas y QR</h3>
+              <p className="font-mono text-xs text-[#cbd56a]">
+                02 / ENERO 2012
+              </p>
+              <h3 className="mt-5 text-xl text-[#eff0df]">
+                La segunda oportunidad
+              </h3>
               <p className="mt-3 text-sm leading-7 text-[#aeb4a0]">
-                Una cuenta atrás reveló coordenadas. Los carteles con códigos QR
-                aparecieron en ciudades de distintos continentes.
+                Al cerrarse la primera dirección .onion, apareció una ruta
+                alternativa firmada con PGP. El espacio en blanco del sitio
+                escondía una lista de números; la rama continuaba por imágenes,
+                OutGuess, un código de libro basado en William Blake y otra
+                dirección de Tor.
               </p>
             </article>
             <article className="bg-[#0d120e] p-7">
-              <p className="font-mono text-xs text-[#cbd56a]">03 / LA CLAVE</p>
-              <h3 className="mt-5 text-xl text-[#eff0df]">Runas y Tor</h3>
+              <p className="font-mono text-xs text-[#cbd56a]">03 / 2012</p>
+              <h3 className="mt-5 text-xl text-[#eff0df]">
+                Coordenadas, QR y RSA
+              </h3>
               <p className="mt-3 text-sm leading-7 text-[#aeb4a0]">
-                Las rondas posteriores sumaron cifrados, audio, servicios .onion
-                y el Liber Primus, un libro rúnico que sigue sin resolverse por
-                completo.
+                La cuenta atrás llevó a carteles físicos en diversas ciudades.
+                Sus QR usaban referencias a <em>Agrippa</em> para abrir
+                servicios .onion; después hubo correos cifrados con RSA, una
+                prueba MIDI y formularios de selección. Lo que ocurrió tras la
+                invitación no es público.
               </p>
             </article>
+            <article className="bg-[#0d120e] p-7">
+              <p className="font-mono text-xs text-[#cbd56a]">
+                04 / ENERO 2013
+              </p>
+              <h3 className="mt-5 text-xl text-[#eff0df]">
+                Cicada OS y Gematria Primus
+              </h3>
+              <p className="mt-3 text-sm leading-7 text-[#aeb4a0]">
+                La segunda ronda comenzó con otra imagen y un código de libro
+                que terminó en una ISO de Linux. Dentro había datos, scripts y
+                el audio
+                <em>761.mp3</em>; sus metadatos, espectro y un flujo de tuits
+                llevaron al alfabeto rúnico Gematria Primus y a nuevas
+                direcciones .onion.
+              </p>
+            </article>
+            <article className="bg-[#0d120e] p-7">
+              <p className="font-mono text-xs text-[#cbd56a]">05 / 2013</p>
+              <h3 className="mt-5 text-xl text-[#eff0df]">El filtro técnico</h3>
+              <p className="mt-3 text-sm leading-7 text-[#aeb4a0]">
+                La fase final incluía preguntas de perfil y una tarea práctica:
+                crear un servidor TCP y publicarlo como servicio Tor. Los
+                participantes que completaron la ruta recibieron mensajes
+                posteriores; no existe un relato público verificable de la
+                selección final.
+              </p>
+            </article>
+            <article className="bg-[#0d120e] p-7">
+              <p className="font-mono text-xs text-[#cbd56a]">
+                06 / ENERO–MAYO 2014
+              </p>
+              <h3 className="mt-5 text-xl text-[#eff0df]">
+                La cadena más extensa
+              </h3>
+              <p className="mt-3 text-sm leading-7 text-[#aeb4a0]">
+                La tercera ronda usó un texto cifrado que remitía a Emerson y
+                pasó por varios servicios .onion. Hubo collages de Blake, RSA,
+                XOR, cuadrados mágicos, audio, compresión y nuevas imágenes. Al
+                final llegó el texto rúnico que cambió el objetivo de la
+                comunidad.
+              </p>
+            </article>
+          </div>
+
+          <div className="mt-12 grid gap-8 border-t border-[#303930] pt-12 lg:grid-cols-[1.2fr_0.8fr]">
+            <article>
+              <p className="font-mono text-xs tracking-[0.28em] text-[#b8c095]">
+                LIBER PRIMUS
+              </p>
+              <h3 className="mt-4 font-serif text-3xl text-[#eff0df]">
+                El libro que sigue abierto
+              </h3>
+              <p className="mt-4 leading-8 text-[#aeb4a0]">
+                Liber Primus reúne páginas escritas en runas de Gematria Primus
+                y fue publicado al terminar la ruta de 2014. Algunas páginas se
+                han leído mediante transliteración, Vigenère, Atbash y claves
+                basadas en primos, pero una parte sustancial continúa sin
+                descifrarse. No es una cuarta ronda: es el artefacto final y aún
+                activo de la tercera.
+              </p>
+            </article>
+            <aside className="border border-[#3d4738] bg-[#0d120e] p-6">
+              <p className="font-mono text-xs text-[#cbd56a]">
+                ESTADO DE AUTENTICIDAD
+              </p>
+              <p className="mt-4 text-sm leading-7 text-[#aeb4a0]">
+                En 2015 hubo un comunicado PGP que rechazó una atribución ajena.
+                En 2016 circuló otra imagen, pero los archivos la tratan como
+                disputada. El último mensaje autenticado con la clave PGP
+                conocida llegó en 2017 y pidió desconfiar de rutas sin firma. No
+                hay una nueva ronda verificada posterior a 2014.
+              </p>
+            </aside>
           </div>
         </div>
       </section>
